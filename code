@@ -1,0 +1,39 @@
+CREATE TABLE istifadeciler(
+ist_id int,
+ist_ad varchar2(20),
+ist_soyad varchar2(20),
+ist_login varchar2(20),
+ist_password varchar2(20)
+);
+
+Insert INTO istifadeciler(ist_id,ist_ad,ist_soyad,ist_login,ist_password)
+VALUES(1,'Nahid','Huseynli','nahid123','nahid2003');
+
+Insert INTO istifadeciler(ist_id,ist_ad,ist_soyad,ist_login,ist_password)
+VALUES(2,'Anar','Babazade','anar123','anar2003');
+
+Insert INTO istifadeciler(ist_id,ist_ad,ist_soyad,ist_login,ist_password)
+VALUES(3,'Nihad','Soltanov','nihad123','nihad2003');
+
+Insert INTO istifadeciler(ist_id,ist_ad,ist_soyad,ist_login,ist_password)
+VALUES(4,'Fuad','Nagiyev','fuad123','fuad2003');
+
+Insert INTO istifadeciler(ist_id,ist_ad,ist_soyad,ist_login,ist_password)
+VALUES(5,'Kenan','Quluzade','kenan123','kenan2003');
+
+Insert INTO istifadeciler(ist_id,ist_ad,ist_soyad,ist_login,ist_password)
+VALUES(6,'Behmen','Bunyatov','behmen123','behmen2003');
+
+Insert INTO istifadeciler(ist_id,ist_ad,ist_soyad,ist_login,ist_password)
+VALUES(7,'Elsen','Qasimov','elsen123','elsen2003');
+
+Insert INTO istifadeciler(ist_id,ist_ad,ist_soyad,ist_login,ist_password)
+VALUES(8,'Vusal','Eliyev','vusal123','vusal2003');
+
+Insert INTO istifadeciler(ist_id,ist_ad,ist_soyad,ist_login,ist_password)
+VALUES(9,'Resad','Ibadov','resad123','resad2003');
+
+Insert INTO istifadeciler(ist_id,ist_ad,ist_soyad,ist_login,ist_password)
+VALUES(10,'Elnur','Huseynov','elnur123','elnur2003');
+
+SELECT* FROM istifadeciler;
